@@ -27,7 +27,7 @@
 					(if (= index bitsAsInt) 1 0)
 				)
 			)
-			(expt (list-length bits) 2) ; There are 2^n possible qubit combinations
+			(expt 2 (list-length bits)) ; There are 2^n possible qubit combinations
 		)
 	)
 )
