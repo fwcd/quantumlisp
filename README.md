@@ -21,9 +21,12 @@ Collapsing a superposition:
 ```
 
 ## Getting Started
-* An installation of the Quicklisp package manager is required
-* (push #p"/YOUR/CLONE/PATH/QuantumLisp/" asdf:*central-registry*)
-* (ql:quickload "quantumlisp")
+An installation of the Quicklisp package manager is required
+
+```lisp
+(push #p"/YOUR/CLONE/PATH/QuantumLisp/" asdf:*central-registry*)
+(ql:quickload "quantumlisp")
+```
 
 ## License
 MIT
